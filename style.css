@@ -1,0 +1,626 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: lighter;
+}
+
+.app {
+}
+
+.app__hero {
+  height: 100vh;
+  background-image: url(https://portfolio.jeromedupuis.net/static/img/intro-bg6.jpg);
+  background-size: cover;
+}
+/*
+cover = divの大きさいっぱいにサイズを調整
+100% = 一つ上のdivの大きさの100%
+100vh = パソコンの画面100%
+*/
+
+
+
+
+.app__hero img {
+}
+
+
+.app__hero__header {
+}
+
+
+.app__hero__header__logo {
+  color: white;
+  padding: 20px;
+  padding-left: 60px;
+  float: left;
+}
+
+.app__hero__header__logo img {
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.app__hero__header__logo span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.app__hero__header__logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.app__hero__header__menu {
+  float: right;
+  padding: 20px;
+}
+
+.app__hero__header__menu ul {
+  list-style: none;
+}
+
+.app__hero__header__menu li {
+  display: inline-block;
+}
+
+.app__hero__header__menu li a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.app__hero__titles {
+  position: absolute;
+  color: white;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.app__hero__titles__hurigana{
+  text-align: center;
+}
+
+.app__hero__titles__title {
+  text-align: center;
+  font-size: 30pt;
+}
+
+.app__hero___titles__descliption {
+  text-align: center;
+}
+
+.app__hero__logoBottom {
+  position: absolute;
+  bottom: 40px;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+.app__hero__logoBottom img{
+  width: 44px;
+  height: 44px;
+}
+
+.about {
+  background-color: #FFF;
+  height: 650px;
+}
+
+.about__title {
+  color: #0c78ae;
+  text-align: center;
+  padding: 25px;
+  padding-top: 30px;
+  width: 100%;
+  height: 100px;
+}
+
+.about__photo {
+  float: left;
+  padding-left: 350px;
+}
+
+.about__photo img {
+  height: 280px;
+  width: auto;
+  padding-right: 20px;
+}
+
+.about__profile {
+  padding: 20px;
+  height: 320px;
+}
+
+.about__profile p {
+left: calc(50% + 20px);
+}
+
+.about__introduction {
+  width: 550px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.about__readmore {
+  background-color: #F59169;
+  text-align: center;
+  width: 120px;
+  margin: auto;
+  padding: 13px;
+  border-radius: 20px;
+  font-size: 12pt;
+}
+
+.about__readmore a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.app__skills {
+  background-color: #F8F8F8;
+  text-align: center;
+  height: 700px;
+}
+
+.app__skills__title {
+  color: #0c78ae;
+  text-align: center;
+  padding: 25px;
+  padding-top: 30px;
+}
+
+.app__skills__message {
+  padding-bottom: 50px;
+}
+
+.app__skills__images {
+}
+
+.app__skills__images__r {
+  width: 200px;
+  display: inline-block;
+}
+
+.app__skills__images__r img {
+  width: 100px;
+  height: auto;
+}
+
+.app__skills__images__python {
+  width: 200px;
+  display: inline-block;
+}
+
+.app__skills__images__python img {
+  width: 100px;
+  height: auto;
+  display: inline-block;
+}
+
+.app__skills__images__html {
+  width: 200px;
+  display: inline-block;
+}
+
+.app__skills__images__html img {
+  width: 100px;
+  height: auto;
+  display: inline-block;
+}
+
+.app__skills__images__css {
+  width: 200px;
+  display: inline-block;
+}
+
+.app__skills__images__css img {
+  width: 73px;
+  height: auto;
+  display: inline-block;
+}
+
+.app__skills__column-title {
+  width: 100%;
+  height: auto;
+}
+
+.app__skills__column-title__r {
+  width: 200px;
+  display: inline-block;
+}
+
+.app__skills__column-title__python {
+  width: 200px;
+  display: inline-block;
+}
+
+.app__skills__column-title__html {
+  width: 200px;
+  display: inline-block;
+}
+
+.app__skills__column-title__css {
+  width: 200px;
+  display: inline-block;
+}
+
+.app__skills__comment {
+  color: #A2ABAE;
+  padding-bottom: 32pt;
+}
+
+.app__skills__comment__r {
+  padding: 12px;
+  width: 200px;
+  height: 160px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.app__skills__comment__python {
+  padding: 12px;
+  width: 200px;
+  height: 160px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.app__skills__comment__html {
+  padding: 12px;
+  width: 200px;
+  height: 160px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.app__skills__comment__css {
+  padding: 12px;
+  width: 200px;
+  height: 160px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.app__readmore {
+  background-color: #F59169;
+  text-align: center;
+  width: 120px;
+  margin: auto;
+  padding: 13px;
+  border-radius: 20px;
+  font-size: 12pt;
+}
+
+.app__readmore a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.app__experience {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+}
+
+.app__experience__title {
+  color: #0c78ae;
+  padding: 25px;
+  padding-top: 30px;
+}
+
+.app__experience__message {
+}
+
+.app__experience__company-logos {
+}
+
+.app__experience__company-logos__1 {
+  height: 180px;
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.app__experience__company-logos__1 img {
+  height: 180px;
+  width: auto;
+  transition: all 0.3s;
+}
+
+.app__experience__company-logos__1:hover img{
+  transform: scale(1.03);
+}
+
+.app__experience__company-logos__2 {
+  width: 300px;
+  display: inline-block;
+  vertical-align: middle;
+ }
+
+.app__experience__company-logos__2 img {
+  height: auto;
+  width: 300px;
+  transition: all 0.3s;
+}
+
+.app__experience__company-logos__2:hover img {
+  transform: scale(1.03);
+}
+
+.app__works {
+  background-color: #F8F8F8;
+  width: 100%;
+  height: 700px;
+  text-align: center;
+}
+
+.app__works__title {
+  color: #0c78ae;
+  padding: 25px;
+  padding-top: 30px;
+}
+
+
+.app__works__pics {
+}
+
+.app__works__pics__forum {
+  display: inline-block;
+  padding: 15px;
+}
+
+.app__works__pics__forum img {
+  width: 400px;
+  height: auto;
+}
+
+.app__works__pics__homepage {
+  display: inline-block;
+  padding: 15px;
+}
+
+.app__works__pics__homepage img {
+  width: 400px;
+  height: auto;
+}
+
+.app__works__works-title__website {
+  display: inline-block;
+  text-align: center;
+  width:430px; /* box-sizing: border-box;が効いていると、divのwidthは、「padding+子要素のwidth」で定義される。 */
+  padding-right: 15px;　/* そこで、親要素を430px、paddingを15pxにすると、子要素は430-15-15の幅に自動的に変化する。　*/
+  padding-left: 15px;
+}
+
+.app__works__works-title__forum {
+  display: inline-block;
+  text-align: center;
+  width:430px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.app__works__works-details {
+}
+
+.app__works__works-details__website {
+  display: inline-block;
+  width:430px;
+  padding-right: 30px;
+  padding-left: 30px;
+  vertical-align: top;
+}
+
+.app__works__works-details__website p {
+  font-size: 8pt;
+  color: #A2ABAE;
+}
+
+.app__works__works-details__website a {
+  text-decoration: none;
+  color: #0c78ae;
+}
+
+.app__works__works-details__forum {
+  display: inline-block;
+  width:430px;
+  padding-right: 30px;
+  padding-left: 30px;
+  vertical-align: top;　/* divを上辺に合わせて揃える */
+}
+
+.app__works__works-details__forum p {
+  font-size: 8pt;
+  color: #A2ABAE;
+}
+
+.app__works__period {
+}
+
+.app__works__period__website {
+  display: inline-block;
+  width:430px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  border-top: dotted 1px #A2ABAE ;
+}
+
+.app__works__period__website p {
+  font-size: 8pt;
+  color: #A2ABAE;
+}
+
+.app__works__period__forum {
+  display:inline-block;
+  width:430px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  border-top: dotted 1px #A2ABAE ;
+}
+
+.app__works__period__forum p {
+  font-size: 8pt;
+  color: #A2ABAE;
+}
+
+.app__readmore {
+  background-color: #F59169;
+  text-align: center;
+  width: 120px;
+  margin: auto;
+  padding: 13px;
+  border-radius: 20px;
+  font-size: 12pt;
+}
+
+.app__readmore a {
+  text-decoration: none;
+  color: white;
+}
+
+.app__contact {
+  text-align: center;
+  height: 300px;
+}
+
+.app__contact__title {
+  color: #0c78ae;
+  padding: 25px;
+  padding-top: 30px;
+}
+
+.app__contact__message {
+  padding-bottom: 20px;
+}
+
+
+.app__contact__message a {
+  color: black;
+}
+
+.app__email {
+  background-color: #0c78ae;
+  text-align: center;
+  width: 120px;
+  margin: auto;
+  padding: 13px;
+  border-radius: 20px;
+  font-size: 12pt;
+}
+
+.app__email a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__menu {
+  border-top: dotted 1px #A2ABAE;
+  height: 107.66px;
+}
+
+.footer__menu__list {
+  float: left;
+  padding: 10pt;
+}
+
+.footer__menu__list a {
+  text-decoration: none;
+  color: #A2ABAE;
+}
+
+.footer__menu__list li {
+  display: inline-block;
+  padding: 12pt;
+}
+
+
+.footer__menu__link {
+  float: right;
+  height: 107.66px;
+  padding: 10pt;
+  padding-right: 60px;
+}
+
+.footer__menu__link__facebook {
+  display: inline-block;
+  padding: 12px;
+  vertical-align: middle;
+}
+
+.footer__menu__link__facebook img {
+  height: 30px;
+  width: auto;
+}
+
+.footer__menu__link__instagram {
+  display: inline-block;
+  padding: 12px;
+  vertical-align: middle;
+}
+
+.footer__menu__link__instagram img {
+  height: 32px;
+  width: auto;
+}
+
+
+.footer {
+  height: 80px;
+  width: 100%;
+  background-color: #0c78ae;
+}
+
+.footer__copyright {
+  text-align: center;
+}
+
+.footer__copyright p {
+  line-height: 80px;
+  color: white;
+  font-size: 10pt;
+}
+
+
+
+/*
+.app__skills__python {
+  width: 20%;
+  display: inline-block;
+}
+
+.app__skills__html {
+  width: 20%;
+  display: inline-block;
+}
+
+.app__skills__css {
+  width: 20%;
+  display: inline-block;
+}
+
+
+vertical-align: top;
+はdivの中の要素を上揃えにする!!
+
+vertical-align: middle;
+は中央揃え！
+
+*/
